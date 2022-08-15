@@ -1,55 +1,57 @@
-*{
+* {
   box-sizing: border-box;
 }
+
 .App {
   font-family: 'Epilogue', sans-serif;
 }
 
-img{
+img {
   display: block;
 }
 
-p{
+p {
   font-size: 18px;
   font-weight: 500;
 }
 
-.header{
+.header {
   margin: 1.1em;
   display: flex;
   justify-content: space-between;
 }
 
-.header img{
+.header img {
   padding: 4px;
 }
 
-.header p{
+.header p {
   cursor: pointer;
   display: flex;
   align-items: center;
   margin: 0;
 }
 
-.header p:hover{
+.header p:hover {
   color: hsl(0, 0%, 8%);
   font-weight: 500;
 }
-.menu{
+
+.menu {
   display: flex;
-  gap:1.2em;
-  color:hsl(0, 0%, 41%);
+  gap: 1.2em;
+  color: hsl(0, 0%, 41%);
   padding: 12px;
 }
 
-.authorisation{
+.authorisation {
   display: flex;
-  gap:1.2em;
-  color:hsl(0, 0%, 41%);
+  gap: 1.2em;
+  color: hsl(0, 0%, 41%);
   padding: 12px;
 }
 
-.home-container{
+.home-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1.8%;
@@ -61,47 +63,48 @@ p{
   max-height: 80vh;
 } */
 
-.left{
+.left {
   display: flex;
   flex-wrap: wrap;
   align-items: end;
   margin: 0 15%;
-  
+
 }
 
-.home-text{
+.home-text {
   text-align: left;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
 }
-.home-text-main{
-  color:hsl(0, 0%, 8%);
+
+.home-text-main {
+  color: hsl(0, 0%, 8%);
   font-size: 4em;
   font-weight: 700;
 }
 
-.home-text-info{
+.home-text-info {
   font-size: 18px;
   color: hsl(0, 0%, 41%);
 }
 
-.btn-learn{
+.btn-learn {
   border-radius: 10px;
   background-color: hsl(0, 0%, 8%);
-  color:hsl(0, 0%, 98%);
+  color: hsl(0, 0%, 98%);
   padding: 8px 15px;
   cursor: pointer;
 }
 
-.home-logos{
+.home-logos {
   display: flex;
   align-items: center;
-  gap:32px;
+  gap: 32px;
   justify-content: left;
 }
 
-.image-right img{
+.image-right img {
   max-height: 85vh;
-  width: 85% ;
+  width: 85%;
 }

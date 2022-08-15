@@ -1,14 +1,14 @@
 import React from "react"
 
-function Home(){
+function Home() {
     return (
         <div className="home-container">
             <div className="left">
                 <div className="home-text">
-                    <p className="home-text-main">Make <br/> remote work</p>
-                    <p className='home-text-info'>Get your team in sync, no matter your location. Streamline processes, create team rituals, and <br/>watch productivity soar.</p>
+                    <p className="home-text-main">Make <br /> remote work</p>
+                    <p className='home-text-info'>Get your team in sync, no matter your location. Streamline processes, create team rituals, and <br />watch productivity soar.</p>
                 </div>
-                    <button className="btn-learn">Learn more</button>
+                <button className="btn-learn">Learn more</button>
                 <div className="home-logos">
                     <img src="images/client-databiz.svg" alt="databiz-logo"></img>
                     <img src="images/client-audiophile.svg" alt="audiophile-logo"></img>

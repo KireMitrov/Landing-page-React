@@ -1,12 +1,12 @@
 import React from 'react'
 
-function Header(){
+function Header() {
     return (
         <div className='header'>
             <div className='menu'>
-            <img src="images/logo.svg" alt='snap-logo'></img>
-                <p>Features <img src='images/icon-arrow-down.svg' alt='arrow-down'/></p>
-                <p>Company <img src='images/icon-arrow-down.svg' alt='arrow-down'/></p>
+                <img src="images/logo.svg" alt='snap-logo'></img>
+                <p>Features <img src='images/icon-arrow-down.svg' alt='arrow-down' /></p>
+                <p>Company <img src='images/icon-arrow-down.svg' alt='arrow-down' /></p>
                 <p>Careers</p>
                 <p>About</p>
             </div>
